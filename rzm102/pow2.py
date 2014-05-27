@@ -23,4 +23,4 @@
 
 
 for x in xrange(0,31):
-    print "2^{0:.1f} power = {1:.3f}".format(x,(2**x))
+    print "2^{0:<2d} power = {1:11d}".format(x,(2**x))
