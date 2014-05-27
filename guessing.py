@@ -5,7 +5,7 @@
 # Program    : guessing.py
 # To Complie : n/a
 #
-# Purpose    : 
+# Purpose    : Computer guesses number 0 through max value
 #
 # Called By  :
 # Calls      :
@@ -23,8 +23,14 @@
 
 import sys
 
-max_val = 26
+# Set max value to 26 if none specified on command line
+max_val = 26 if (len(sys.argv) <= 1) else int(sys.argv[1])
 min_val = 0
+
+# Ask user for the max value, set max_val as default
+if len(sys.argv) == 1:
+    update_max = raw_input("Enter max value (default="+str(max_val)+"): ")
+    max_val = max_val if update_max == "" else int(update_max)
 
 while True:
     comp_guess = (max_val + min_val) / 2
