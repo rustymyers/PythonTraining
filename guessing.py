@@ -37,7 +37,7 @@ while True:
     guess_answer = raw_input("Is your number " + str(comp_guess) + "?" + "\nEnter y = yes, h = higher, l = lower: ")
     print 
     if guess_answer == "y":
-        print "I got it right! Yay!"
+        print "I got it right! Yay!", "Run me again to play another round."
         break
     elif guess_answer == "h":
         min_val = comp_guess
