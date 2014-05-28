@@ -24,9 +24,9 @@
 users_dict = {}
 counts = {}
 
-with open("passwd") as f:
+with open("passwd","Ur") as f:
     for line in f:
-        (username,password,uid,gid,full_name,home,shell) = line[:-2].split(":")
+        (username,password,uid,gid,full_name,home,shell) = line[:-1].split(":")
         if shell == "":
             shell = "NONE"
         users_dict[username] = [password,uid,gid,full_name,home,shell]
