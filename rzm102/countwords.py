@@ -5,7 +5,7 @@
 # Program    : countalice.py
 # To Complie : n/a
 #
-# Purpose    : count number of lines in alice30.txt that contain Alice. (Should be 392).
+# Purpose    : count number of lines in that contain specified word in specified files.
 #
 # Called By  :
 # Calls      :
