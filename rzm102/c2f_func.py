@@ -5,7 +5,7 @@
 # Program    : c2f_func.py
 # To Complie : n/a
 #
-# Purpose    : 
+# Purpose    : Use function to convert C to F
 #
 # Called By  :
 # Calls      :
