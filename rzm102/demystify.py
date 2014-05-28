@@ -27,4 +27,4 @@ read_file = open("mystery","rb")
 bytes_of_file = read_file.read()
 read_file.close()
 
-print bytes_of_file[::2]
+print bytes_of_file[0:-1:2]
