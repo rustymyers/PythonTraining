@@ -24,6 +24,12 @@
 import sys
 import random
 
+# Open a file for writing
+fo = open ("guesses.txt","a")
+
+# make a counter for guesses
+guess_count = 0
+# make a random number 1-100
 computer_random = random.randrange(1,100+1)
 
 # Set max value to 26 if none specified on command line
@@ -39,12 +45,20 @@ while True:
     comp_guess = (max_val + min_val) / 2
     if comp_guess < computer_random:
         print "Computer Guess: {0} is less than random number: {1}".format(comp_guess,computer_random)
+        fo.write("Guess number {0} is {1}. Too Low.\n".format(guess_count,comp_guess))
         min_val = comp_guess
+        guess_count += 1
     elif comp_guess > computer_random:
         print "Computer Guess: {0} is greater than random number: {1}".format(comp_guess,computer_random)
         max_val = comp_guess
+        fo.write("Guess number {0} is {1}. Too High.\n".format(guess_count,comp_guess))
+        guess_count += 1
     elif comp_guess == computer_random:
         print "Computer Guess: {0} is equal to random number: {1}".format(comp_guess,computer_random)
         print "I got it right! Yay!", "Run me again to play another round."
+        fo.write("Guess number {0} is {1}. Correct!\n".format(guess_count,comp_guess))
         break
     # guess_answer = raw_input("Is your number " + str(comp_guess) + "?" + "\nEnter y = yes, h = higher, l = lower: ")
+fo.write("It took {0} guesses to get the answer. Nice job computer!\n\n".format(guess_count))
+# close file
+fo.close()
