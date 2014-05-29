@@ -24,6 +24,21 @@
 import sys
 import random
 
+lowest_guess = int(100)
+
+# Find the lowest number of guesses so far
+with open("guesses.txt","r+") as guess_file:
+    for line in guess_file:
+        if 'lowest_guess' in line:
+            a_low_guess = line.split("=")[1:]   
+            a_low_guess = int(a_low_guess[0])
+            print "{0} --- {1}".format(a_low_guess,lowest_guess)
+            if int(a_low_guess) < int(lowest_guess):
+                print "Lowest guess is {0}".format(lowest_guess)
+                loweset_guess = a_low_guess
+            else:
+                print "{1} is Not loweset guess: {0}".format(lowest_guess,a_low_guess)
+                
 # Open a file for writing
 fo = open ("guesses.txt","a")
 
@@ -40,11 +55,15 @@ computer_random = random.randrange(1,100+1)
 max_val = 26 if (len(sys.argv) <= 1) else int(sys.argv[1])
 min_val = 0
 
+
+
 # Ask user for the max value, set max_val as default
 if len(sys.argv) == 1:
     update_max = raw_input("Enter max value (default="+str(max_val)+"): ")
     max_val = max_val if update_max == "" else int(update_max)
+
 fo.write("User {0} is trying their hand at running the guessing game!\n".format(user_initials.lower()))
+
 while True:
     comp_guess = (max_val + min_val) / 2
     if comp_guess < computer_random:
@@ -63,6 +82,6 @@ while True:
         fo.write("Guess number {0} is {1}. Correct!\n".format(guess_count,comp_guess))
         break
     # guess_answer = raw_input("Is your number " + str(comp_guess) + "?" + "\nEnter y = yes, h = higher, l = lower: ")
-fo.write("It took {0} guesses to get the answer. Nice job computer!\n\n".format(guess_count))
+fo.write("It took {0} guesses to get the correct answer {1}. Nice job computer!\nlowest_guess={0}\n\n".format(guess_count,computer_random))
 # close file
 fo.close()
