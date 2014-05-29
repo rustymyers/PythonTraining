@@ -1,0 +1,44 @@
+1:Washington:George:1732:Feb:22:1799:Dec:14:Westmoreland County:Virginia:1789:Apr:30:1797:Mar:04:no party
+2:Adams:John:1735:Oct:30:1826:Jul:04:Braintree, Norfolk:Massachusetts:1797:Mar:04:1801:Mar:04:Federalist
+3:Jefferson:Thomas:1743:Apr:13:1826:Jul:04:Albermarle County:Virginia:1801:Mar:04:1809:Mar:04:Democratic - Republican
+4:Madison:James:1751:Mar:16:1836:Jun:28:Port Conway:Virginia:1809:Mar:04:1817:Mar:04:Democratic - Republican
+5:Monroe:James:1758:Apr:28:1831:Jul:04:Westmoreland County:Virginia:1817:Mar:04:1825:Mar:04:Democratic - Republican
+6:Adams:John Quincy:1767:Jul:11:1848:Feb:23:Braintree, Norfolk:Massachusetts:1825:Mar:04:1829:Mar:04:Democratic - Republican
+7:Jackson:Andrew:1767:Mar:15:1845:Jun:08:Waxhaw:South Carolina:1829:Mar:04:1837:Mar:04:Democratic
+8:Van Buren:Martin:1782:Dec:05:1862:Jul:24:Kinderhook:New York:1837:Mar:04:1841:Mar:04:Democratic
+9:Harrison:William Henry:1773:Feb:09:1841:Apr:04:Berkeley:Virginia:1841:Mar:04:1841:Apr:04:Whig
+10:Tyler:John:1790:Mar:29:1862:Jan:18:Charles City County:Virginia:1841:Apr:04:1845:Mar:04:Whig
+11:Polk:James Knox:1795:Nov:02:1849:Jun:15:Mecklenburg County:North Carolina:1845:Mar:04:1849:Mar:03:Democratic
+12:Taylor:Zachary:1784:Nov:24:1850:Jul:09:Orange County:Virginia:1849:Mar:05:1850:Jul:09:Whig
+13:Fillmore:Millard:1800:Jan:07:1874:Mar:08:Cayuga County:New York:1850:Jul:09:1853:Mar:04:Whig
+14:Pierce:Franklin:1804:Nov:23:1869:Oct:08:Hillsboro:New Hampshire:1853:Mar:04:1857:Mar:04:Democratic
+15:Buchanan:James:1791:Apr:23:1868:Jun:01:Cove Gap:Pennsylvania:1857:Mar:04:1861:Mar:04:Democratic
+16:Lincoln:Abraham:1809:Feb:12:1865:Apr:15:Hodgenville, Hardin County:Kentucky:1861:Mar:04:1865:Apr:15:Republican
+17:Johnson:Andrew:1808:Dec:29:1875:Jul:31:Raleigh:North Carolina:1865:Apr:15:1869:Mar:04:Republican
+18:Grant:Ulysses Simpson:1822:Apr:27:1885:Jul:23:Point Pleasant:Ohio:1869:Mar:04:1877:Mar:04:Republican
+19:Hayes:Rutherford Birchard:1822:Oct:04:1893:Jan:17:Delaware:Ohio:1877:Mar:04:1881:Mar:04:Republican
+20:Garfield:James Abram:1831:Nov:19:1881:Sep:19:Orange, Cuyahoga County:Ohio:1881:Mar:04:1881:Sep:19:Republican
+21:Arthur:Chester Alan:1829:Oct:05:1886:Nov:18:Fairfield:Vermont:1881:Sep:20:1885:Mar:04:Republican
+22:Cleveland:Grover:1837:Mar:18:1908:Jun:24:Caldwell:New Jersey:1885:Mar:04:1889:Mar:04:Democratic
+23:Harrison:Benjamin:1833:Aug:20:1901:Mar:13:North Bend:Ohio:1889:Mar:04:1893:Mar:04:Republican
+24:Cleveland:Grover:1837:Mar:18:1908:Jun:24:Caldwell:New Jersey:1893:Mar:04:1897:Mar:04:Democratic
+25:McKinley:William:1843:Jan:29:1901:Sep:14:Niles:Ohio:1897:Mar:04:1901:Sep:14:Republican
+26:Roosevelt:Theodore:1858:Oct:27:1919:Jan:06:New York City:New York:1901:Sep:14:1909:Mar:04:Republican
+27:Taft:William Howard:1857:Sep:15:1930:Mar:08:Cincinnati:Ohio:1909:Mar:04:1913:Mar:04:Republican
+28:Wilson:Woodrow:1856:Dec:28:1924:Feb:03:Staunton:Virginia:1913:Mar:04:1921:Mar:04:Democratic
+29:Harding:Warren Gamaliel:1865:Nov:02:1923:Aug:02:Blooming Grove:Ohio:1921:Mar:04:1923:Aug:02:Republican
+30:Coolidge:Calvin:1872:Jul:04:1933:Jan:05:Plymouth:Vermont:1923:Aug:03:1929:Mar:04:Republican
+31:Hoover:Herbert Clark:1874:Aug:10:1964:Oct:20:West Branch:Iowa:1929:Mar:04:1933:Mar:04:Republican
+32:Roosevelt:Franklin Delano:1882:Jan:30:1945:Apr:12:Hyde Park:New York:1933:Mar:04:1945:Apr:12:Democratic
+33:Truman:Harry S.:1884:May:08:1972:Dec:26:Lamar:Missouri:1945:Apr:12:1953:Jan:20:Democratic
+34:Eisenhower:Dwight David:1890:Oct:14:1969:Mar:28:Denison:Texas:1953:Jan:20:1961:Jan:20:Republican
+35:Kennedy:John Fitzgerald:1917:May:29:1963:Nov:22:Brookline:Massachusetts:1961:Jan:20:1963:Nov:22:Democratic
+36:Johnson:Lyndon Baines:1908:Aug:27:1973:Jan:22:near Stonewall:Texas:1963:Nov:22:1969:Jan:20:Democratic
+37:Nixon:Richard Milhous:1913:Jan:09:1994:Apr:22:Yorba Linda:California:1969:Jan:20:1974:Aug:09:Republican
+38:Ford:Gerald Rudolph:1913:Jul:14:2006:Dec:26:Omaha:Nebraska:1974:Aug:09:1977:Jan:20:Republican
+39:Carter:James Earl 'Jimmy':1924:Oct:01::::Plains:Georgia:1977:Jan:20:1981:Jan:20:Democratic
+40:Reagan:Ronald Wilson:1911:Feb:06:2004:Jun:05:Tampico:Illinois:1981:Jan:20:1989:Jan:20:Republican
+41:Bush:George Herbert Walker:1924:Jun:12::::Milton:Massachusetts:1989:Jan:20:1993:Jan:20:Republican
+42:Clinton:William Jefferson 'Bill':1946:Aug:19::::Hope:Arkansas:1993:Jan:20:2001:Jan:20:Democratic
+43:Bush:George Walker:1946:Jul:06::::New Haven:Connecticut:2001:Jan:20:2009:Jan:20:Republican
+44:Obama:Barack Hussein:1961:Aug:04::::Honolulu:Hawaii:2009:Jan:20::::Democratic
