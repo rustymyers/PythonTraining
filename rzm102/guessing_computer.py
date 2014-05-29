@@ -24,7 +24,7 @@
 import sys
 import random
 
-lowest_guess = int(100)
+the_low_guess = int(100)
 
 # Find the lowest number of guesses so far
 with open("guesses.txt","r+") as guess_file:
@@ -32,12 +32,12 @@ with open("guesses.txt","r+") as guess_file:
         if 'lowest_guess' in line:
             a_low_guess = line.split("=")[1:]   
             a_low_guess = int(a_low_guess[0])
-            print "{0} --- {1}".format(a_low_guess,lowest_guess)
-            if int(a_low_guess) < int(lowest_guess):
-                print "Lowest guess is {0}".format(lowest_guess)
-                loweset_guess = a_low_guess
-            else:
-                print "{1} is Not loweset guess: {0}".format(lowest_guess,a_low_guess)
+#             print "{0} --- {1}".format(a_low_guess,the_low_guess)
+            if int(a_low_guess) < int(the_low_guess):
+                # print "Lowest guess is {0}".format(the_low_guess)
+                the_low_guess = a_low_guess
+#             else:
+#                 print "{1} is Not loweset guess: {0}".format(the_low_guess,a_low_guess)
                 
 # Open a file for writing
 fo = open ("guesses.txt","a")
@@ -78,10 +78,10 @@ while True:
         guess_count += 1
     elif comp_guess == computer_random:
         print "Computer Guess: {0} is equal to random number: {1}".format(comp_guess,computer_random)
-        print "I got it right! Yay!", "Run me again to play another round."
+        print "I got it right! Yay! Quickest number of guesses is {0}".format(the_low_guess), "Run me again to play another round."
         fo.write("Guess number {0} is {1}. Correct!\n".format(guess_count,comp_guess))
         break
     # guess_answer = raw_input("Is your number " + str(comp_guess) + "?" + "\nEnter y = yes, h = higher, l = lower: ")
-fo.write("It took {0} guesses to get the correct answer {1}. Nice job computer!\nlowest_guess={0}\n\n".format(guess_count,computer_random))
+fo.write("It took {0} guesses to get the correct answer {1}. Quickest number of guesses is {2}. Nice job computer!\nlowest_guess={0}\n\n".format(guess_count,computer_random,the_low_guess))
 # close file
 fo.close()
