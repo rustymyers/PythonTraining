@@ -26,6 +26,9 @@ import random
 
 the_low_guess = int(100)
 
+# Open a file for writing
+fo = open ("guesses.txt","a")
+
 # Find the lowest number of guesses so far
 with open("guesses.txt","r+") as guess_file:
     for line in guess_file:
@@ -38,9 +41,6 @@ with open("guesses.txt","r+") as guess_file:
                 the_low_guess = a_low_guess
 #             else:
 #                 print "{1} is Not loweset guess: {0}".format(the_low_guess,a_low_guess)
-                
-# Open a file for writing
-fo = open ("guesses.txt","a")
 
 # Get User Info
 user_initials = raw_input("Please enter your initials for tracking: ")
