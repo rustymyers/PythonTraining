@@ -21,8 +21,6 @@
 # Version    : 1.0
 #--------------------------------------------------------------------------------------------------
 
-import sys
-
 read_file = open("alt.txt")
 if read_file:
     lines_of_file = read_file.readlines()
