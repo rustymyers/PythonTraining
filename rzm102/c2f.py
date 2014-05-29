@@ -9,5 +9,3 @@ try:
 except (ValueError,IndexError),e:
     print "Please input a numeral. {0}".format(e)
     quit()
-
-
