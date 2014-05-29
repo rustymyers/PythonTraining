@@ -21,9 +21,6 @@
 # Version    : 1.0
 #--------------------------------------------------------------------------------------------------
 
-import sys
-
-
 while True:
     temp_string = raw_input("Enter Celsius temp: (or q to quit): ")
     if temp_string.lower() == "q": # or temp_string.lower() == "":
