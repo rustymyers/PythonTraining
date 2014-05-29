@@ -27,8 +27,12 @@ import random
 # Open a file for writing
 fo = open ("guesses.txt","a")
 
+# Get User Info
+user_initials = raw_input("Please enter your initials for tracking: ")
+
 # make a counter for guesses
-guess_count = 0
+guess_count = 1
+
 # make a random number 1-100
 computer_random = random.randrange(1,100+1)
 
@@ -40,7 +44,7 @@ min_val = 0
 if len(sys.argv) == 1:
     update_max = raw_input("Enter max value (default="+str(max_val)+"): ")
     max_val = max_val if update_max == "" else int(update_max)
-
+fo.write("User {0} is trying their hand at running the guessing game!\n".format(user_initials.lower()))
 while True:
     comp_guess = (max_val + min_val) / 2
     if comp_guess < computer_random:
