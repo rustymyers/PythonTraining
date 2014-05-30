@@ -22,18 +22,16 @@
 #--------------------------------------------------------------------------------------------------
 
 import re
-r = re.compile(r"\b[rR]abbit\b")
+r = re.compile(r"\brabbit\b",re.I)
 
 with open("alice30.txt","r") as open_file:
         for line in open_file:
             if r.search(line.lower()):
                 with open("badger.txt","a") as badger:
                     badger.write(r.sub("badger",line))
-                    print r.sub("badger",line)
+                    #print r.sub("badger",line)
                 #print line
             else:
                 with open("badger.txt","a") as badger:
                     badger.write(line)
-                    print line,
-                
-                
+                    #print line,
