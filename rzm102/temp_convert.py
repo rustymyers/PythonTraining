@@ -37,19 +37,19 @@ while True:
         temp_string = raw_input("Enter Celsius temp: (or q to quit): ")
         try:
             temp_float = float(temp_string)
-        except (ValueError),e:
+        except (ValueError), e:
             pp(e)
             continue
         celcius = tc.c2f(temp_float)
-        print "%.1f C is %.1f F" % (temp_float,celcius)
+        print "%.1f C is %.1f F" % (temp_float, celcius)
     elif conversion_type == "f":
         temp_string = raw_input("Enter Fahrenheit temp: (or q to quit): ")
         try:
             temp_float = float(temp_string)
-        except (ValueError),e:
+        except (ValueError), e:
             pp(e)
             continue
 
         fahr = tc.f2c(temp_float)
-        print "%.1f F is %.1f C" % (temp_float,fahr)
+        print "%.1f F is %.1f C" % (temp_float, fahr)
         
